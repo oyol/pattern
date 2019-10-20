@@ -1,7 +1,7 @@
 package com.oyol.fiveplusone;
 
 import com.oyol.fiveplusone.pojo.Computer;
-import com.oyol.fiveplusone.pojo.impl.DellComputerImpl;
+import com.oyol.fiveplusone.pojo.impl.DellComputer;
 import com.oyol.fiveplusone.pojo.impl.HuaWeiComputer;
 import com.oyol.fiveplusone.pojo.impl.XiaoMiComputer;
 
@@ -12,7 +12,7 @@ import com.oyol.fiveplusone.pojo.impl.XiaoMiComputer;
 public class ComputerSimpleFactory {
     public static Computer getComputer(String name) {
         if (name.equalsIgnoreCase("dell")) {
-            return new DellComputerImpl();
+            return new DellComputer();
         } else if (name.equalsIgnoreCase("huawei")){
             return new HuaWeiComputer();
         } else if (name.equalsIgnoreCase("xiaomi")) {
