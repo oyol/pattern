@@ -1,8 +1,12 @@
 package com.oyol.fiveplusone;
 
+import com.oyol.fiveplusone.abstractMethod.AbstractFactory;
+import com.oyol.fiveplusone.abstractMethod.DellAbstractFactory;
+import com.oyol.fiveplusone.methodMethod.DellFactory;
 import com.oyol.fiveplusone.pojo.Computer;
 import com.oyol.fiveplusone.pojo.Factory;
 import com.oyol.fiveplusone.pojo.Television;
+import com.oyol.fiveplusone.simpleMethod.ComputerSimpleFactory;
 import org.junit.jupiter.api.Test;
 
 /**

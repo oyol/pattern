@@ -1,4 +1,4 @@
-package com.oyol.fiveplusone;
+package com.oyol.fiveplusone.methodMethod;
 
 import com.oyol.fiveplusone.pojo.Computer;
 import com.oyol.fiveplusone.pojo.Factory;

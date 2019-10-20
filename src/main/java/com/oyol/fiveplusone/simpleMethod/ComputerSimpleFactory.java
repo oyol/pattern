@@ -1,4 +1,4 @@
-package com.oyol.fiveplusone;
+package com.oyol.fiveplusone.simpleMethod;
 
 import com.oyol.fiveplusone.pojo.Computer;
 import com.oyol.fiveplusone.pojo.impl.DellComputer;
