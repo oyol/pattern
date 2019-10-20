@@ -1,6 +1,8 @@
 package com.oyol.fiveplusone;
 
+import com.oyol.fiveplusone.pojo.Computer;
 import com.oyol.fiveplusone.pojo.Factory;
+import com.oyol.fiveplusone.pojo.Television;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -24,5 +26,17 @@ public class App {
         Factory factory = new DellFactory();
         // 工厂创建对象
         factory.product().show();
+    }
+
+    /**
+     *  抽象工厂模式
+     */
+    @Test
+    public void AbstractTest(){
+        AbstractFactory factory = new DellAbstractFactory();
+        Computer computer = factory.productComputer();
+        computer.show();
+        Television television = factory.productTelevision();
+        television.show();
     }
 }
