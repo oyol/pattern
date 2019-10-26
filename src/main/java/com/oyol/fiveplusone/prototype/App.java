@@ -12,5 +12,9 @@ public class App {
         manager.create("two").use("hello world");
 
         System.out.println(manager.create("one") == manager.create("two"));
+
+        Student student = new Student();
+        Student clone = student.clone();
+        System.out.println(clone == student);
     }
 }
